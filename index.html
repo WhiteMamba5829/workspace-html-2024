@@ -11,6 +11,13 @@
 		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="css/main.css">
+	<style type="text/css">
+	/* This is the comment for css */
+	p{
+		color: red;
+		background-color: yellow;
+	}
+	</style>
 
 	<!--- We will learn later -->
 </head>
@@ -30,21 +37,201 @@
 			 <h6>Sixth heading, h6</h6>
          
 		</div>
-
-
 		<div class="practice">
+			<h2>August 28 practice</h2>
+			<!--List practice-->
+			<ul>
+				<li>list 1</li>
+				<li>list 2</li>
+				<li>sublist
+					<ul>
+						<li>sublist 1</li>
+						<li>sublist 2</li>
+					</ul>
+				</li>
+
+			</ul>
+
+			<ol>
+				<li>list 1</li>
+				<li>list 2</li>
+				
+			</ol>
+			<!--Example-->
+			<ol>
+				<li>Inline Element
+					<ul>
+						<li> &lt; img &gt; </li>
+						<li> &lt; br &gt; </li>
+						<li> &lt; strong &gt; </li>
+					</ul>
+				</li>
+				<li>Block Level Element
+					<ul>
+						<li> &lt; ol &gt; </li>
+						<li> &lt; li &gt; </li>
+						<li> &lt; p &gt; </li>
+					</ul>
+				</li>
+			</ol>
+			<!--Link practice-->
+			<a href="https://www.google.com">Google link</a>
+			<a href="img/google.png">Google image</a>
+			<a href="HTMLelements.html">HTML elements</a>
+			<p>
+				<a href="https://blackboard.sc.edu/">Link to blackboard</a>
+				<a href="imageMap.html">Image Map</a>
+				<a href="mailto:slr22@usca.edu">Email</a>
+			</p>
+				
 
 		</div>
 
+		<div class="practice">
+			<h1>September 4th practice</h1>
+			<!--Image practice-->
+			This is an image <img src="img/add.gif" alt="add image">
+			<!--Required-->
+			<p><a href="https://www.google.com"><img src="img/google.png" alt="google"></a></p>
+			<p>&copy;Sam</p>
+			<p>Practice with table</p>
+			<table border="1">
+				<tr>
+					<th>Header 1</th>
+					<th>Header 2</th>
+					<th>Header 3</th>
+				</tr>
+				<tr>
+					<td rowspan="3">1 1 1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					
+					<td colspan="2">2 and 3</td>
+					
+				</tr>
+				<tr>
+					
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td colspan="4">Temperature Distribution in Jan - Apr 2015 (F)</td>
+				</tr>
+				<tr>
+					<td>Month</td>
+					<td>High</td>
+					<td>Low</td>
+					<td>Average</td>
+				</tr>
+				<tr>
+					<td>January</td>
+					<td>48</td>
+					<td>36</td>
+					<td>40</td>
+				</tr>
+				<tr>
+					<td>February</td>
+					<td>49</td>
+					<td>37</td>
+					<td colspan="2">43</td>
+				</tr>
+				<tr>
+					<td>March</td>
+					
+				</tr>
+			</table>
+
+
+		</div>
+			<h1>September 9th practice</h1>
+			<!--Form practice-->
+			<form action="">
+				<p>
+					First name: <input type="text" name="fn">
+				</p>
+				<p>
+					Last name: <input type="text" name="ln">	
+				</p>
+				<p>
+					Password: <input type="password" name="pd">
+				</p>
+				<p>What is your favorite color?</p>
+				<p><input type="checkbox" name="color" value="red">red</p>
+				<p><input type="checkbox" name="color" value="blue">blue</p>
+				<p><input type="checkbox" name="color" value="yellow">yellow</p>
+				<p>What is your major?</p>
+				<p><input type="radio" name="major" value="engineering">engineering</p>
+				<p><input type="radio" name="major" value="computer science">computer science</p>
+				<p><input type="submit" value="Submit"></p>
+				<p><input type="reset" value="Reset"></p>
+				<!--File upload testing-->
+				<input type="file" name="DONOTUSE">
+			</form>
 
 		<div class="practice">
+			<h1>September 11th practice</h1>
+			<form action="">
+				<p>
+				Textarea Example:
+				<textarea name="comment" rows="20" cols="100" autofocus></textarea>
+				</p>
+				<p>
+					Select the device you have:
+					<select size="4" name="device">
+						<option value="laptop">laptop</option>
+						<option value="phone">phone</option>
+						<option>desktop</option>
+						<option value="Apple">Android</option>
+					</select>
+				</p>
+				<input type="submit" value="checkform">
+				<p>Image buttons
+					<button><img src="img/plus.png" alt="plus"></button>
+					<input type="image" src="img/minus.png">
+				</p>
+				<p>Label practice
+					<label>Age <input type="text" name="age"></label>
+					<input type="text" name="school" id="school">
+					<label for="school"></label>
+				</p>
+				<p>HTML5 features
+					<input type="color" name="frontcolor">
+					<input type="date" name="date">
+					<input type="datetime" name="datetime">
+				</p>
+					Email*:<input type="email" name="email" placeholder="x@x.edu" required>
+			</form>
 
 
 		</div>
 
 		<div class="practice">
-
-
+			<h1>September 16th practice</h1>
+			<!--Required-->
+			<form action="">
+				Telephone: <input type="tel" name="homephone" placeholder="(xxx)xxx-xxxx" pattern="\(\d{3}\)\d{3}-\d{4}">
+				<input type="submit" value="go">
+			</form>
+			<!--iframe-->
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/tmSzoy8cl8Y?si=GXxlFFIruiHKTGR3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211599.43655283336!2d-81.10237229518064!3d34.037683529974444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8a5697931d1e3%3A0xf32808f4b379fa96!2sColumbia%2C%20SC!5e0!3m2!1sen!2sus!4v1726504818888!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<!--Video-->
+			<video src="video/puppy.mp4" width="400" height="300" controls loop>Puppy video</video>
 		</div>
 
 	</div>
